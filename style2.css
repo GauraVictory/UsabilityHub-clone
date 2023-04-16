@@ -1,0 +1,53 @@
+.first{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:100px;
+    left:80px;
+}
+.mimage{
+    width: 600px;
+    height:450px;
+    position: relative;
+    right:150px;
+    top:-50px;
+    
+}
+.design{
+    color: rgb(24,59,86);
+    font-size: 50px;
+}
+.para{
+    color:rgb(87,117,146);
+    font-size: 25px;
+}
+.mbutton1{
+    width:150px;
+    height:50px;
+    background-color: rgb(34,148,237);
+    color:white;
+    border:1px solid rgb(34,148,237);
+    border-radius: 10px;
+}
+.mbutton1:hover{
+    background-color: rgb(19, 101, 163);
+    border:1px solid rgb(19, 101, 163);
+}
+.secpara{
+    color:rgb(24,59,86);
+    position:relative;
+    top:70px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.third{
+    display:flex;
+    position:relative;
+    top:90px;
+    gap:20px;
+    justify-content: space-evenly;
+}
+.third>img{
+    width: 100px;
+}

@@ -1,0 +1,156 @@
+
+
+.top{
+    background-color: rgb(231,70,148);
+    position:relative;
+    
+}
+.top>p{
+    color:white;
+    padding:20px;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+}
+.righthalf{
+    display: flex;
+    gap:10px;
+    position:relative;
+    left:150px;
+}
+.righthalf>.image{
+    width:200px;
+    height: 30px;
+    position:relative;
+    top:15px;
+}
+.righthalf>div{
+    background-color: rgb(235,242,250);
+    padding:10px;
+    height: 17px;
+    border-radius: 10px;
+    position:relative;
+    top:12px;
+}
+.content{
+    display:flex;
+    gap:20px;
+    position: relative;
+    right: 150px;
+    font-size: 18px;
+}
+.content>p>a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+}
+.content>p>span{
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top:5px solid black;
+    position: relative;
+    left:5px;
+    top:13px;
+}
+.button1{
+    background-color: white;
+    width: 100px;
+    height:40px;
+    border:1px solid black;
+    border-radius: 5px;
+    position:relative;
+    top:8px;
+    left:10px
+}
+.button2{
+    background-color: rgb(34,148,237);
+    width:100px;
+    height:40px;
+    border:1px solid black;
+    border-radius: 5px;
+    position:relative;
+    top:8px;
+    left:15px;
+}
+.button2>b{
+    color:white;
+}
+.productslidebar{   
+    display: none;
+    background-color: white;
+    border-radius:10px;
+    flex-direction: column;
+    padding:20px;
+    position:absolute;
+    top:40px;
+    gap:20px;
+    right:555px;
+    z-index: 1;
+    
+}
+.pro:hover{
+    color: lightskyblue;
+}
+.pro:hover>span{
+    border-top: 5px solid lightskyblue;
+}
+.pro:hover+.productslidebar{
+    display: inline-flex;
+}
+.productslidebar:hover{
+    display: inline-flex;
+}
+.productslidebar>span:hover{
+    color:lightskyblue;
+}
+.cust>a:hover{
+    color:lightskyblue;
+}
+.custt>a:hover{
+    color:lightskyblue;
+}
+.custt>a{
+    position:relative;
+    right:12px;
+}
+.cust>a{
+    position: relative;
+    left:5px;
+}
+.reco{
+    display:none;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding:20px;
+    gap:20px;
+    position:absolute;
+    top:35px;
+    right:192px;
+    z-index: 1;
+}
+.res:hover{
+    color:lightskyblue;
+}
+.res:hover>span{
+    border-top:5px solid lightskyblue;
+}
+.res:hover+.reco{
+    display:inline-flex;
+}
+.reco:hover{
+    display:inline-flex;
+}
+.reco>span:hover{
+    color:lightskyblue;
+}
+.button1:hover{
+    color:rgb(34,148,237);
+    border:1px solid rgb(34,148,237);
+}
+.button2:hover{
+    background-color: rgb(19, 101, 163);
+}

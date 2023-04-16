@@ -1,0 +1,247 @@
+.fhead{
+    position:absolute;
+    left:470px;
+    top:1080px;
+    font-size: 40px; 
+    color:rgb(24,59,86);
+}
+.fbutton{
+    width: 200px;
+    height: 50px;
+    position:absolute;
+    left:670px;
+    top:1150px;
+    z-index: 1;
+    background-color: rgb(235,242,250);
+    color: rgb(24,59,86);
+    border:1px solid rgb(24,59,86);
+}
+.fimage{
+    width: 1000px;
+    height:800px;
+    position:relative;
+    top:300px;
+    left:280px;
+}
+.fbutton:hover{
+    color: rgb(34,148,237);
+    border:1px solid rgb(34,148,237);
+}
+.flist{
+    display:grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 350px 350px 350px;
+    position: absolute;
+    top:1250px;
+    left:200px;
+}
+.flistimage{
+    display: inline-block;
+    width:40px;
+    height:40px;
+    margin-left:140px;
+    
+}
+.flistbutton{
+    border:1px solid black;
+    padding:10px;
+    width:20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.flistpara{
+    margin-bottom: 30px;
+    color:rgb(126,149,171);
+    font-size: 25px;
+    margin-left: 30px;
+}
+.flisthead{
+    color: rgb(24,59,86);
+    margin-left: 75px;
+}
+#b1:hover{
+    color: rgb(46,154,238);
+    border:1px solid rgb(46,154,238);
+}
+#b2:hover{
+    color: rgb(46,154,238);
+    border:1px solid rgb(46,154,238);
+}
+#b3:hover{
+    color: rgb(46,154,238);
+    border:1px solid rgb(46,154,238);
+}
+#b4:hover{
+    color: rgb(46,154,238);
+    border:1px solid rgb(46,154,238);
+}
+#b5:hover{
+    color: rgb(46,154,238);
+    border:1px solid rgb(46,154,238);
+}
+#b6:hover{
+    color: rgb(46,154,238);
+    border:1px solid rgb(46,154,238);
+}
+.fifth{
+    display:flex;
+    position:relative;
+    top:500px;
+}
+.newimage{
+    width: 800px;
+    height: 500px;
+    margin-left: 200px;
+}
+.fifthright{
+    margin-left: 50px;
+    margin-right: 200px;
+}
+.fifthright>p{
+    font-size: 20px;
+    color: rgb(87,117,146);
+}
+.nick{
+    display: flex;
+}
+.fifthright>h1{
+    color: rgb(24,59,86);
+}
+.fifthright>h2{
+    color:rgb(24,59,86);
+}
+.fifthright>h3{
+    color: rgb(24,59,86);
+}
+.uniquepara{
+    color:rgb(24,59,86);
+}
+.name{
+    margin-left:10px;
+    margin-top: 25px;
+    height: 10px;
+    color:rgb(24,59,86);
+    font-size: 18px;
+}
+.position{
+    position:absolute;
+    right:492px;
+    top:355px;
+    font-size: 16px;
+    color:rgb(24,59,86);
+}
+.nickimage{
+    width:60px;
+    height:60px;
+    margin-top: 20px;
+}
+.sixth{
+    display:flex;
+    position:relative;
+    top:600px;
+}
+.marketerimage{
+    width: 600px;
+    height: 500px;
+    margin-right:150px;
+}
+.sixthleft{
+    margin-left:200px;
+    margin-right: 100px;
+    color:rgb(24, 59,86);
+}
+.sixthleft>p{
+    font-size: 20px;
+}
+.philips{
+    color: rgb(0,90,223);
+}
+.position2{
+    position:absolute;
+    top:370px;
+    left:270px;
+}
+.name1{
+    margin-left:10px;
+    margin-top: 40px;
+    height: 10px;
+    color:rgb(24,59,86);
+    font-size: 18px;
+}
+.rick{
+    width:60px;
+    height: 60px;
+    margin-top: 30px;
+}
+.seventh{
+    display:flex;
+    position:relative;
+    top:700px;
+}
+.position3{
+    position:absolute;
+    right:360px;
+    top:355px;
+    font-size: 16px;
+    color:rgb(24,59,86);
+}
+.newlogo{
+    background-color: red;
+    color:white;
+    padding:5px;
+    font-size:13px;
+}
+.eight{
+    position:relative;
+    top:800px;
+    left:420px;
+    font-size: 22px;  
+}
+.eight>button{
+    margin-left: 210px;
+    font-size: 20px;
+    padding:10px;
+    background-color: white;
+    border:0.5px solid black;
+}
+.eight>h1{
+    color:rgb(24,59,86);
+    margin-left: 15px;
+}
+.eight>button:hover{
+    color:rgb(48,155,238);
+    border:0.5px solid rgb(48,155,238);
+}
+.nine{
+    display:flex;
+    position:relative;
+    top:850px;
+    justify-content: space-evenly;
+}
+.lastimage{
+    width: 280px;
+    height: 320px;
+    filter: brightness(50%);
+}
+.imagetag{
+    margin-left: 20px;
+    font-size: 28px;
+    color:white;
+    width:220px;
+    height:100px;
+    position:absolute;
+    top:160px;
+}
+#last1:hover{
+    box-shadow: 0px 0px 30px black;
+}
+#last2:hover{
+    box-shadow: 0px 0px 30px black;
+}
+#last3:hover{
+    box-shadow: 0px 0px 30px black;
+}
+#last4:hover{
+    box-shadow: 0px 0px 30px black;
+}

@@ -1,0 +1,122 @@
+.firstfooter{
+    background-color: rgb(24,59,84);
+    margin-top: 1000px;
+    height:500px;
+    padding:80px;
+}
+.backgroundleft{
+    margin-left: 80px;
+}
+.background{
+    display:flex;
+    position:relative;
+    color:white;
+    font-size: 22px;
+}
+.background>img{
+    width: 1000px;
+    height:500px;
+    margin-right: 80px;
+}
+.backgroundleft>p{
+    margin-right:80px;
+    font-size: 23px;
+    color:rgb(185,200,228);
+}
+.lists{
+    display:grid;
+    grid-template-columns: 300px 300px;
+    gap:20px;
+}
+.lists>li{
+    font-size: 18px;
+    color:rgb(185,200,228);
+}
+.backgroundleft>button{
+    background-color: rgb(34,148,237);
+    width:150px;
+    padding:15px 10px 15px 10px;
+    color:white;
+    border:1px solid rgb(34,148,237);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.backgroundleft>button:hover{
+    background-color: rgb(6, 74, 126);
+    border:1px solid rgb(6, 74, 126);
+}
+.secondfooter{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 24px;
+    color:rgb(24,59,84);
+}
+.secondfooter>button{
+    background-color: rgb(34,148,237);
+    color:white;
+    padding:20px;
+    border:1px solid rgb(34,148,237);
+    width:180px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.secondfooter>button:hover{
+    background-color: rgb(24,59,84);
+    border:1px solid rgb(24,59,84);
+}
+.thirdf{
+    background-color: rgb(235,242,250);
+    height: 400px;
+    margin-top: 80px;
+}
+.thirdfooter{
+    display:flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:60px;
+    font-size: 20px;
+    
+}
+.lastlogo{
+    width:150px;
+    height:40px;
+    margin-top: 25px;
+}
+.item3>a{
+    text-decoration: none;
+    color:rgb(87,117,146);
+}
+.item3>a:hover{
+    color:rgb(34,148,237);
+}
+.item3>h3{
+    margin-bottom: 2px;
+}
+.forthfooter{
+    background-color: rgb(185,205,228);
+    height:60px;
+}
+.inside{
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:20px;
+}
+.firsthalf>span{
+    margin-left: 20px;
+}
+
+.images>img{
+    margin-left: 20px;
+    width:15px;
+    height:15px;
+}
+.firsthalf>span:hover{
+    color:rgb(34,148,237);
+}
+.givenname{
+    color: rgb(87,117,146);
+    position:relative;
+    left:700px;
+    
+}
